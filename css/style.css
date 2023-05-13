@@ -1,0 +1,150 @@
+/* NAV */
+.nav-color{
+    background-color: #222;
+}
+
+.img-nav{
+    padding-left: 0px;
+    width: 150px;
+}
+
+.img-nav-copa{
+    padding-left: 20px;
+    width: 40px;
+}
+
+.font-nav{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+.font-ti{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.font-te{
+    font-family: 'Bitter', serif;
+}
+.link-nav{
+    color: #fff;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.link-nav:hover{
+    background-color: #a9133e;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.nav-nav{
+    padding: 0px;
+}
+
+.active-nav:active{
+    font-size: 1.5rem; 
+    background-color: #fff;
+    color: #222;
+}
+
+.color-nav-button{
+    background-color: #fff;
+    padding: 5px;
+}
+
+/* Carousel */
+
+.filtro-img{
+    filter: brightness(50%);
+}
+
+.texto-img-carrousel{
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+/* Separador */
+
+#separador-historia{
+    width: 100%;
+    height: 15vh;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#separador-elaboracion{
+    width: 100%;
+    height: 15vh;
+    background-color: #3f0762;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.separador-p{
+    font-family: 'Bitter', serif;
+    font-size: 1rem;
+    letter-spacing: 15px;
+    color: #fff;
+}
+
+
+/* Elaboracion */
+
+#elaboracion{
+    background-color: #4d0d74;
+}
+
+.p-historia{
+    padding-top: 30px;
+    font-size: 1rem;
+    text-align: justify;
+    color: #222;
+}
+.img-historia-uno{
+    width: 300px;
+}
+/* productos */
+
+.fondo-productos-separador{
+    background-color: #fff;
+}
+
+.color-button{
+    background-color:#222;
+    border-radius: 50px;
+}
+
+/* Contacto */
+
+.contacto-div{
+    background-color: #222;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.icon-contact{
+    color:#a9133e;
+    font-size: 2rem;
+}
+
+.return{
+    position: fixed;
+    z-index: 2;
+    bottom: 30px;
+    right: 30px;
+    background-color: #a9133e;
+    border-radius: 100px;
+}
+.return-icono{
+    width: 2.3rem;
+}
+/* footer */
+
+.footer-end{
+    background-color: #a9133e;
+}
+
+/* js */
+
