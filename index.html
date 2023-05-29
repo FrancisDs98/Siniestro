@@ -38,7 +38,7 @@
                         <a class="nav-link link-nav" href="index.html#productos">Productos</a>
                     </li>
                     <li class="nav-item li-nav">
-                        <a class="nav-link link-nav" href="index.html#contacto">Contacto</a>
+                        <a class="nav-link link-nav" href="index.html#contacto">Comprar</a>
                     </li>
                     </ul>
                 </div>
@@ -205,9 +205,30 @@
       </button>
     </div>
 
-    <!-- Contacto -->
+    <!-- Compra -->
     <div id="contacto" class="container contacto-div mt-5 mb-5">
-      <h4 class="text-center pt-3 font-ti">Contacto</h4>
+      <h4 class="text-center pt-3 font-ti">Comprar</h4>
+      <div class="d-flex flex-column align-items-center flex-md-row justify-content-evenly mb-3">
+        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 p-4 text-center
+        border border-info mb-3">
+          <h4 class="font-ti">Asociados</h4>
+          <p class="font-te">Tiene un descuento de</p>
+          <b class="font-te">40%</b>
+          <p class="font-te">*Solo para miembros</p>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 p-4 text-center border border-success-subtle mb-3">
+          <h4 class="font-ti">Mayoristas</h4>
+          <p class="font-te">Tiene un descuento de</p>
+          <b class="font-te">25%</b>
+          <p class="font-te">*Desde 10 productos en adelante</p>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 p-4 text-center border border-warning mb-3">
+          <h4 class="font-ti">Minoristas</h4>
+          <p class="font-te">Tiene un descuento de</p>
+          <b class="font-te">15%</b>
+          <p class="font-te">*Sin minimo de compra</p>
+        </div>
+      </div>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
           
@@ -229,7 +250,7 @@
                 <div class="mb-3 font-te fs-6">
                   <label for="producto" class="form-label">Producto</label>
                   <select name="producto" id="producto" class="form-select" onchange="calPrecioFinal()" required>
-                    <option value="" disabled selected hidden class="disabledSelect">Seleccionar</option>
+                    <option value="" disabled selected hidden>Seleccionar</option>
                     <option value="1200">Malbec Chateudefrance</option>
                     <option value="900">Chardonnay Chateudefrance</option>
                     <option value="1700">Champagne</option>
@@ -243,12 +264,21 @@
                 </div>
               </div>
               <div class="col-md mb-3 font-te fs-6">
-                <label for="precioFinal" class="form-label">Precio Final</label>
-                <input type="text" class="form-control" placeholder="Precio Total" id="precioFinal" disabled>
+                <label for="categoria" class="form-label">Categoria</label>
+                <select name="categoria" id="categoria" class="form-select" onchange="calPrecioFinal()" required>
+                  <option value="" disabled selected hidden>Seleccionar</option>
+                  <option value="40">Asociado</option>
+                  <option value="25">Mayorista</option>
+                  <option value="15">Minorista</option>
+                </select> 
               </div>
             </div>
+            <div class="col-md mb-3 font-te fs-6">
+              <label for="precioFinal" class="form-label ">Precio Final</label>
+              <input type="text" class="form-control bg-info-subtle" placeholder="Total a Pagar: $0" id="precioFinal" disabled>
+            </div>  
             <div class="mb-3 text-center">
-              <input type="submit" value="Enviar">
+              <input type="submit" value="Comprar">
             </div>
           </form>
         </div>
@@ -278,7 +308,7 @@
     <div class="container-fluid text-center footer-end">
       <ul class="d-flex justify-content-center">
         <li class="list-group-item p-3 font-ti"><a class="text-light" href="">RRHH</a></li>
-        <li class="list-group-item p-3 font-ti"><a class="text-light" href="">Contacto</a></li>
+        <li class="list-group-item p-3 font-ti"><a class="text-light" href="">Comprar</a></li>
         <li class="list-group-item p-3 font-ti"><a class="text-light" href="">Inicio</a></li>
       </ul>
       <p class="text-light font-ti m-0">©2023, Francis Dos Santos</p>
